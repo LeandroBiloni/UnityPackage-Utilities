@@ -1,0 +1,10 @@
+{
+  "name": "com.leandro_biloni.template",
+  "version": "1.0.0",
+  "displayName": "Template",
+  "description": "Template.",
+  "keywords": [],
+  "author": {
+    "name": "Leandro Biloni"
+  }
+}
