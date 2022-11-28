@@ -9,8 +9,10 @@ namespace Utilities.AssetDatabaseUtils
         {
             string path = AssetDatabase.GetAssetPath(obj);
 
-            AssetDatabase.RenameAsset(path, newName);
-            AssetDatabase.Refresh();
+            string result = AssetDatabase.RenameAsset(path, newName);
+
+            if (!string.IsNullOrEmpty(result))
+                Debug.Log(result);
         }
     }
 }
