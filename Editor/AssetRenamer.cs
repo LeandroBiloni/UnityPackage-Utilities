@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+using UnityEngine;
 using UnityEditor;
 
 namespace Utilities.AssetDatabaseUtils
@@ -16,3 +17,4 @@ namespace Utilities.AssetDatabaseUtils
         }
     }
 }
+#endif
